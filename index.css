@@ -2,6 +2,14 @@ body {
     background: rgb(0, 174, 255);
 }
 
+
+
+@media (max-width: 999px) {}
+
+.heading {
+    font-size: 33px;
+}
+
 a {
     text-decoration: none;
     color: blue;
@@ -36,6 +44,13 @@ a {
     padding-right: 11px;
 }
 
+@media (max-width: 999px) {
+    .topbar li a {
+        margin-right: 12px;
+        font-size: 14px;
+    }
+}
+
 .topbar li a:hover {
     color: rgb(197, 197, 197);
 }
@@ -45,6 +60,13 @@ a {
     margin-left: 205px;
     margin-bottom: 3px;
 }
+
+@media (max-width: 999px) {
+    .frm {
+        margin-left: 103px;
+    }
+}
+
 
 
 /*********************** Navbar 2 *********************************/
@@ -71,13 +93,68 @@ a {
     align-items: center;
 }
 
+@media (max-width: 1399px) {
+    .nav2 li a {
+        margin-right: 72px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .nav2 li a {
+        margin-right: 48px;
+    }
+}
+
+@media (max-width: 999px) {
+    .nav2 li a {
+        margin-right: 52px;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav2 li a {
+        margin-right: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav2 li a {
+        display: none;
+    }
+    .btn{
+        width: 50%;
+    }
+    .heading2{
+        font-size: 30px;
+    }
+}
+
+
 .nav2 li a:hover {
     color: rgb(197, 197, 197);
 }
 
+
 .btn a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 999px) {}
+
+@media (max-width: 767px) {
+    .btn1 {
+        margin-left: 67%;
+    }
+    .img {
+        background-image: url("./Acessets/pain killer/bg.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 105%;
+        margin-left: -11px;
+    }
 }
 
 
@@ -97,6 +174,9 @@ a {
     margin-top: 5px;
 }
 
+
+
+@media (max-width: 999px) {}
 
 /*********************** section-2 *********************************/
 
@@ -120,10 +200,10 @@ a {
     display: block;
     margin-bottom: 5px;
 }
-/* /Acessets/Vitamin-E-Capsule/Vitamin-E-Oil.jpg" */
+
 
 .img1 {
-    background-image: url("./Acessets/Vitamin-E-Capsule/Vitamin-E-Oil.jpg"); 
+    background-image: url("./Acessets/Vitamin-E-Capsule/Vitamin-E-Oil.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,4 +260,46 @@ a {
     height: 130px;
     width: 15%;
     border: 1px solid grey;
+}
+
+@media (max-width: 767px) {
+    .img1 {
+        height: 251px;
+        width: 95%;
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+    .img2 {
+        height: 251px;
+        width: 95%;
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+    .img3 {
+        height: 251px;
+        width: 95%;
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+    .img4 {
+        height: 251px;
+        width: 95%;
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+    .img5 {
+        height: 251px;
+        width: 95%;
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+    .img6 {
+        height: 251px;
+        width: 95%;
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+    .btn{
+        width: 100%;
+    }
 }
