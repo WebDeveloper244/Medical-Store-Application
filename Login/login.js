@@ -5,7 +5,7 @@ let loginUserDetails = () => {
         let getData = JSON.parse(localStorage.getItem("User-Objects"));
         getData.forEach((objects) => {
             if (objects.Email === email1 && objects.password === pass1) {
-                window.open('/Admin-Pannel/admin.html');
+                window.open('../Admin-Pannel/admin.html');
             };
             // if (email1 !== objects.Email) {
             //     document.querySelector(".incorrec-email").innerHTML = " **Incorrect Email ";
