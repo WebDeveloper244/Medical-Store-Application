@@ -2,7 +2,9 @@ body {
     background: rgb(0, 174, 255);
 }
 
-
+.heading2{
+    font-size: 53px;
+}
 
 @media (max-width: 999px) {}
 
